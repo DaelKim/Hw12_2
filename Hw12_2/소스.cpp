@@ -29,6 +29,7 @@ public:
 	TA(int x) :Student(x), Faculty(x) {
 		cout << "TA::TA(int ) called" << endl;
 		cout << tall << " " << grade << " " << pay << endl;
+		cout << "Person class size: " << sizeof(Person) << " " << "Student class size: " << sizeof(Student) << " " << "Faculty class size: " << sizeof(Faculty) << "  " << "TA class size: " << sizeof(TA) << endl;
 	}
 };
 
