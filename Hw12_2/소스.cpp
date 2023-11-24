@@ -4,7 +4,7 @@ class Person {
 public:
 	Person(int x) { cout << "Person::Person(int ) called" << endl; }
 	Person() { cout << "Person::Person() called" << endl; }
-	int tall=20;
+	int tall=180;
 };
 
 class Faculty : virtual public Person {
