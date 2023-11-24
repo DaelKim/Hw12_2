@@ -17,7 +17,7 @@ public:
 
 class Student : virtual public Person {
 public:
-	int grade = 3.5;
+	float grade = 3.5;
 	Student(int x) :Person(x) {
 		cout << "Student::Student(int ) called" << endl;
 	
